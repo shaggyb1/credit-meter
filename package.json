@@ -1,0 +1,16 @@
+{
+  "name": "credit-meter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI credit metering and model routing from Upsoar: plans, a credit ledger, per-action model tiers and pricing checks.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^5",
+    "vitest": "^5.0.4"
+  }
+}
